@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic example result will show on console" />
+
+    <Button
+        android:onClick="ifElse_function"
+        android:layout_marginTop="50dp"
+        android:text="IF, ELSE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="switch_function"
+        android:layout_marginTop="10dp"
+        android:text="Switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="loops_function"
+        android:layout_marginTop="10dp"
+        android:text="Loops"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="array1_function"
+        android:layout_marginTop="10dp"
+        android:text="Array 1D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="udf_function"
+        android:layout_marginTop="10dp"
+        android:text="User Define Function"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

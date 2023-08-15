@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="40dp"
+    android:gravity="center">
+
+    <Button
+        android:textAllCaps="false"
+        android:onClick="goToActivity2"
+        android:text="Simple - Go To Activity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:onClick="goToActivity3"
+        android:text="Pass Data - Go To Activity3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:onClick="goToActivity4"
+        android:text="FinishBack - Go To Activity4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

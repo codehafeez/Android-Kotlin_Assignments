@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="40dp">
+
+    <Button
+        android:onClick="simpleToastFunction"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:text="Simple Toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="imageToastFunction"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:text="Toast Message with Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

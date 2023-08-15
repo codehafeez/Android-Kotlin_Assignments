@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="40dp">
+
+    <Button
+        android:textAllCaps="false"
+        android:onClick="simpleToastFunction"
+        android:text="Simple Toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="toastCenterFunction"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:text="Center Toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="toastTopFunction"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:text="Top Toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="toastBottomFunction"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:text="Bottom Toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="toastLeftFunction"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:text="Left Toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="toastRightFunction"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:text="Right Toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

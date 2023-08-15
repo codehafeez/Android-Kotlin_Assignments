@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic example2 result will show on console\n\nData Structure" />
+
+    <Button
+        android:onClick="listOf_function"
+        android:layout_marginTop="50dp"
+        android:text="listOf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="mutableListOf_function"
+        android:layout_marginTop="10dp"
+        android:text="mutableListOf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="mapSet_function"
+        android:layout_marginTop="10dp"
+        android:text="mapOf - setOf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="mutableMapOf_function"
+        android:layout_marginTop="10dp"
+        android:text="mutableMapOf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="mutableSetOf_function"
+        android:layout_marginTop="10dp"
+        android:text="mutableSetOf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="linkedList_function"
+        android:layout_marginTop="10dp"
+        android:text="LinkedList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="stack_function"
+        android:layout_marginTop="10dp"
+        android:text="Stack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
