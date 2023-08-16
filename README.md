@@ -8,9 +8,9 @@
 
 
 ## My Certificates
-![](https://github.com/codehafeez/Android-Kotlin_Assignments/blob/main/Android-Certificate-Udemy.jpg)
+![](https://github.com/codehafeez/Android-Kotlin_Assignments/blob/main/Android-Certificate-Udemy.png)
 
-![](https://github.com/codehafeez/Android-Kotlin_Assignments/blob/main/Android-Google-Partnet-Certificaiton.jpg)
+![](https://github.com/codehafeez/Android-Kotlin_Assignments/blob/main/Android-Google-Partnet-Certificaiton.png)
 
 ![](https://github.com/codehafeez/Android-Kotlin_Assignments/blob/main/Appreciation-Certificate.png)
 
